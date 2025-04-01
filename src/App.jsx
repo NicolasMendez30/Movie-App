@@ -64,6 +64,9 @@ const App = () => {
     }
   }
 
+
+  
+
   const loadTrendingMovies = async () => {
     try {
       const movies = await getTrendingMovies();
